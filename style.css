@@ -33,6 +33,7 @@ button{
 
 .row:last-child > button:first-child{
    flex: 1;
+   aspect-ratio: unset;
 }
 
 .display{
