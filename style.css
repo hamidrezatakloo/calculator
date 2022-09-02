@@ -17,7 +17,6 @@ body{
 }
 .row{
     display: flex;
-    justify-content: space-evenly;
 }
 
 button{
