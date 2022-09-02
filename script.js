@@ -4,4 +4,5 @@ let operator;
 document.addEventListener('click',(e)=>{
     if (!e.target.matches('button'))
         return;
+    const clickedText = e.target.textContent; 
 })
