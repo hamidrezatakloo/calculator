@@ -29,6 +29,7 @@ button{
     aspect-ratio: 1/1;
     background-color: #ffffff;
     border-radius: 4px;
+    font-size: 30px;
 }
 
 .row:last-child > button:first-child{
