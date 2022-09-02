@@ -1,3 +1,6 @@
+let operand1;
+let operand2;
+let operator;
 document.addEventListener('click',(e)=>{
     if (!e.target.matches('button'))
         return;
