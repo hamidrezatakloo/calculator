@@ -25,6 +25,7 @@ button{
     padding: 10px;
     width: 40px;
     background-color: #ffffff;
+    border-radius: 4px;
 }
 
 .row:last-child > button:first-child{
