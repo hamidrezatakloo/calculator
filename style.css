@@ -31,6 +31,7 @@ button{
     background-color: #ffffff;
     border-radius: 4px;
     font-size: 30px;
+    font-family: inherit;
 }
 
 .row:last-child > button:first-child{
