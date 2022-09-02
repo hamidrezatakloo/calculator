@@ -17,6 +17,7 @@ body{
 }
 .row{
     display: flex;
+    gap: 8px;
 }
 
 button{
