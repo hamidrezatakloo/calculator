@@ -32,6 +32,8 @@ document.addEventListener('click',(e)=>{
     else if((operand1 && operand2 && operator)  || clickedText=='=' ){
         operand1 = doOperation(operand1,operand2,operator);
         display.textContent = operand1;
+        operand2=undefined;
+        operator = undefined;
     }
     
 })
