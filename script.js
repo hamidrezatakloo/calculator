@@ -45,6 +45,8 @@ document.addEventListener('click',(e)=>{
     else{
         if(digitRegex.test(clickedText))
             operand1 = clickedText;
+        else if(operatorRegex.test(clickedText))
+            operator = clickedText
     }
     
 })
