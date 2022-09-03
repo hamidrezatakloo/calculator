@@ -36,6 +36,12 @@ document.addEventListener('click',(e)=>{
         operand2=undefined;
         operator = undefined;
     }
+    else if(operator){
+        if (digitRegex.test(clickedText))
+            operand2 = clickedText;
+        else if(operatorRegex.test(clickedText))
+            operator = clickedText;
+    }
     
 })
 
