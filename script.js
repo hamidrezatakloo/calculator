@@ -48,5 +48,21 @@ const division = function(num1,num2){
 }
 
 const doOperation = function(operand1,operand2,operator){
-    
+    let result;
+    switch(operator){
+        case '+':
+            result = add(operand1,operand2);
+            break;
+        case '-':
+            result = subtract(operand1,operand2);
+            break;
+        case '*':
+            result = multiplication(operand1,operand2);
+            break;
+        case '/':
+            result = division(operand1,operand2);
+            break;
+        default:
+            break;
+    }
 }
