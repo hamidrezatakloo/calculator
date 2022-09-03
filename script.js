@@ -46,3 +46,7 @@ const multiplication = function(num1,num2){
 const division = function(num1,num2){
     return num1/num2;
 }
+
+const doOperation = function(operand1,operand2,operator){
+    
+}
