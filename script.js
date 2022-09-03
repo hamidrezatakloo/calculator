@@ -21,6 +21,14 @@ document.addEventListener('click',(e)=>{
         else
             return
     }
+    else if(clickedText=='%'){
+        if (operand2)
+            operand2=operand2/100;
+        else if(operand1)
+            operand1=operand1/100;
+        else
+            return    
+    }
 })
 
 const add =function(num1,num2){
