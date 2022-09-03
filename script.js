@@ -6,7 +6,7 @@ document.addEventListener('click',(e)=>{
         return;
     const clickedText = e.target.textContent; 
     const display = document.querySelector('.display');
-    
+    const operatorRegex = /[+-*/]/;
     if(clickedText == 'AC'){
         display.textContent = 0;
         operand1=undefined;
