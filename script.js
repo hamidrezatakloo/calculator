@@ -52,16 +52,16 @@ const doOperation = function(operand1,operand2,operator){
     switch(operator){
         case '+':
             result = add(operand1,operand2);
-            break;
+            return result;
         case '-':
             result = subtract(operand1,operand2);
-            break;
+            return result;
         case '*':
             result = multiplication(operand1,operand2);
-            break;
+            return result;
         case '/':
             result = division(operand1,operand2);
-            break;
+            return result;
         default:
             break;
     }
