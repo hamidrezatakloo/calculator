@@ -48,6 +48,12 @@ document.addEventListener('click',(e)=>{
         else if(operatorRegex.test(clickedText))
             operator = clickedText
     }
+    if(operand1)
+        display.textContent = operand1+ " "
+    if(operator)
+        display.textContent = operator+ " "
+    if(operand2)
+        display.textContent = operand2+ " "
     
 })
 
