@@ -30,7 +30,7 @@ document.addEventListener('click',(e)=>{
         else
             return    
     }
-    else if((operand1 && operand2 && operator)  || clickedText=='=' ){
+    else if((operand1 && operand2 && operator && operatorRegex.test(clickedText))  || clickedText=='=' ){
         operand1 = doOperation(operand1,operand2,operator);
         display.textContent = operand1;
         operand2=undefined;
