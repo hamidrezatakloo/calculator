@@ -6,6 +6,13 @@ document.addEventListener('click',(e)=>{
         return;
     const clickedText = e.target.textContent; 
     const display = document.querySelector('.display');
+    
+    if(clickedText == 'AC'){
+        display.textContent = 0;
+        operand1=undefined;
+        operand2=undefined;
+        operator=undefined;
+    }
 })
 
 const add =function(num1,num2){
