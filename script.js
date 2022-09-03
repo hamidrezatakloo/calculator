@@ -29,6 +29,11 @@ document.addEventListener('click',(e)=>{
         else
             return    
     }
+    else if((operand1 && operand2 && operator)  || clickedText=='=' ){
+        operand1 = doOperation(operand1,operand2,operator);
+        display.textContent = operand1;
+    }
+    
 })
 
 const add =function(num1,num2){
