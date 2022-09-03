@@ -38,13 +38,13 @@ document.addEventListener('click',(e)=>{
     }
     else if(operator){
         if (digitRegex.test(clickedText))
-            operand2 = (+clickedText);
+            operand2 = operand2 * 10 + (+clickedText);
         else if(operatorRegex.test(clickedText))
             operator = clickedText;
     }
     else{
         if(digitRegex.test(clickedText))
-            operand1 = (+clickedText);
+            operand1 = operand1 * 10 + (+clickedText);
         else if(operatorRegex.test(clickedText))
             operator = clickedText
     }
