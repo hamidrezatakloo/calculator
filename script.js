@@ -6,3 +6,7 @@ document.addEventListener('click',(e)=>{
         return;
     const clickedText = e.target.textContent; 
 })
+
+const add =function(num1,num2){
+    return (num1+num2)
+}
