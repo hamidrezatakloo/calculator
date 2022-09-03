@@ -5,6 +5,7 @@ document.addEventListener('click',(e)=>{
     if (!e.target.matches('button'))
         return;
     const clickedText = e.target.textContent; 
+    const display = document.querySelector('.display');
 })
 
 const add =function(num1,num2){
