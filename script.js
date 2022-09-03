@@ -43,7 +43,8 @@ document.addEventListener('click',(e)=>{
             operator = clickedText;
     }
     else{
-        
+        if(digitRegex.test(clickedText))
+            operand1 = clickedText;
     }
     
 })
